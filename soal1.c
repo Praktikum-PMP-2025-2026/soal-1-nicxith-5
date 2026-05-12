@@ -35,7 +35,7 @@ void postorder(int i){
 
 int main() {
     scanf("%d", &n);
-    for (int i = 0; i < n, i++){
+    for (int i = 0; i < n; i++) {
         scanf("%d", &tree[i]);  
     }
     printf("PRE ");
