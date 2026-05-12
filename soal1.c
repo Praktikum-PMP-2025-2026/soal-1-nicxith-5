@@ -13,7 +13,7 @@ int n;
 
 void preorder(int i){
     if (i>=n) return;
-    printf("%d",tree[i]);
+    printf("%d ",tree[i]);
     preorder(2*i+1);
     preorder(2*i+2);
 }
@@ -21,7 +21,7 @@ void preorder(int i){
 void inorder(int i) {
     if (i>=n) return;
     inorder(2*i+1);
-    printf("%d", tree[i]);
+    printf("%d ", tree[i]);
     inorder(2*i+2);
 }
 
@@ -29,7 +29,7 @@ void postorder(int i){
     if (i>=n) return;
     postorder(2*i+1);
     postorder(2*i+2);
-    printf("%d",tree[i]);
+    printf("%d ",tree[i]);
 }
 
 
